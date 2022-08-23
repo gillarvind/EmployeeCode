@@ -9,7 +9,7 @@ namespace EmployeeWage
     internal class EmployeeWage
     {
         const int IS_FULL_TIME = 0, IS_PART_TIME = 1, WAGE_PER_HOUR = 20, FULL_TIME_HR = 8, PART_TIME_HR = 4;
-        int totalEmpWage, empHrs = 0;
+        int totalEmpWage=0, empHrs = 0;
         public void Attendence()
         {
             Random random = new Random();
